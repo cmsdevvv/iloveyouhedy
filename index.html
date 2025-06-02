@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Welcome, Babygirl 💜</title>
+
+  <link rel="stylesheet" href="style/css/login.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+  <div class="login-card">
+    <h1>Welcome, Please login!</h1>
+    <p class="heart">💜 (っ˘ω˘ς ) 💜</p>
+    <input type="text" id="username" placeholder="Enter the username" />
+    <input type="password" id="password" placeholder="Enter the password" />
+    <p style="margin-top: -0.3rem; font-size: 0.9rem;">
+      <a href="#" onclick="showHint()" style="color: #a259ff; text-decoration: underline; cursor: pointer;">
+        Show me a hint? 🧐
+      </a>
+    </p>
+    <button onclick="login()">Enter</button>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
